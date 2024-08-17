@@ -16,8 +16,8 @@ function Header() {
           </div>
           <nav className="flex flex-row gap-6">
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">About Us</a>
-            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#who-we-are">Who We Are </a>
-            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#our-group">Our Group</a>
+            <a className="hover:text-primary font-medium text-md transition duration-200 z-50 " href="#who-we-are" >Who We Are </a>
+            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#our-group">The Team</a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">Media</a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">Contact</a>
           </nav>

@@ -17,6 +17,10 @@ const crewMembers = [
         position: "Chief Farmer",
         image: NARENDRA,
     },
+    {   name: "Venkat Rao",
+        position: "Business Head",
+        image: PATTHABHI,
+    },
     {
         name: "A. N. Setty",
         position: "livestock operations",
@@ -31,12 +35,6 @@ const crewMembers = [
         name: "Dr. Pattabhi",
         position: "Chief Nutritionist",
         image: PATTHABHI,
-    },
-    {   name: "Venkat Rao",
-        position: "Business Head",
-        image: PATTHABHI,
-        
-
     },
 ];
 
