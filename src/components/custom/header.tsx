@@ -15,7 +15,7 @@ function Header() {
             <img src={LOGO} className="h-14" alt="" />
           </div>
           <nav className="flex flex-row gap-6">
-            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">Business</a>
+            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#Business">Business</a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50 " href="#who-we-are" >Who We Are </a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#The-Team">The Team</a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">Media</a>
@@ -29,7 +29,7 @@ function Header() {
           <img src={LOGO} alt="Logo" className="h-10" />
           <button
             onClick={toggleMenu}
-            className="text-black focus:outline-none z-50"
+            className="text-black focus:outline-none z-50 "
           >
             <svg
               className="w-6 h-6"
@@ -56,31 +56,31 @@ function Header() {
             <img src={LOGO} alt="Logo" className="h-10" />
           </div>
           <div className="flex flex-col mt-20 space-y-6 px-6">
-            <a
+            <a onClick={() => setIsOpen(false)}
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"
               href="#Business"
             >
               About Us
             </a>
-            <a
+            <a onClick={() => setIsOpen(false)}
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"
               href="#who-are-we"
             >
               Who We Are
             </a>
-            <a
+            <a onClick={() => setIsOpen(false)}
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"
               href="#The-Team"
             >
               The Team
             </a>
-            <a
+            <a onClick={() => setIsOpen(false)}
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"
               href="#"
             >
               Media
             </a>
-            <a
+            <a onClick={() => setIsOpen(false)}
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"
               href="#"
             >
