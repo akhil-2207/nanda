@@ -1,6 +1,6 @@
 import { LOGO } from "@/assets/images";
 import { useState } from "react";
-
+//import App from "@/App";
 function Header() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -15,9 +15,9 @@ function Header() {
             <img src={LOGO} className="h-14" alt="" />
           </div>
           <nav className="flex flex-row gap-6">
-            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">About Us</a>
+            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">Business</a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50 " href="#who-we-are" >Who We Are </a>
-            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#our-group">The Team</a>
+            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#The-Team">The Team</a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">Media</a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">Contact</a>
           </nav>
@@ -25,7 +25,7 @@ function Header() {
       </div>
 
       <div className="relative">
-        <div className="md:hidden h-16 bg-primary-foreground container flex items-center justify-between px-4">
+        <div className="md:hidden h-16 bg-primary-foreground container flex items-center justify-between px-4 ">
           <img src={LOGO} alt="Logo" className="h-10" />
           <button
             onClick={toggleMenu}
@@ -58,7 +58,7 @@ function Header() {
           <div className="flex flex-col mt-20 space-y-6 px-6">
             <a
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"
-              href="#about-us"
+              href="#Business"
             >
               About Us
             </a>
@@ -70,9 +70,9 @@ function Header() {
             </a>
             <a
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"
-              href="#our-group"
+              href="#The-Team"
             >
-              Our Group
+              The Team
             </a>
             <a
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"

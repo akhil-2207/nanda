@@ -1,5 +1,5 @@
 import Header from "@/components/custom/header";
-
+import App from "@/App";
 
 import HeroSection from "./components/hero-section";
 import WhatDoWeDo from "./components/what-do-we-do";
@@ -8,7 +8,7 @@ import Footer from "@/components/custom/footer";
 
 function LandingPage() {
   return (
-    <div className="bg-primary-foreground App">
+    <div className="bg-primary-foreground App ">
       <Header />
       <HeroSection />
       <WhatDoWeDo />
