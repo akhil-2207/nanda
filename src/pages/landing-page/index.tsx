@@ -10,7 +10,7 @@ import { CarouselSpacing } from "./components/carousel";
 
 function LandingPage() {
   return (
-    <div className="bg-primary-foreground App ">
+    <div className="App ">
       <Header />
       <HeroSection />
       <WhatDoWeDo />
