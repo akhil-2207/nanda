@@ -14,6 +14,12 @@ import BLB from './Balkrishna-Livestock-Breeders-Pvt.-Ltd..png'
 import KH from './KOMARLA-HATCHERIES.png'
 import NFPL from './NANDA-FEEDS.png'
 import NANDUS from './nandus logo.png'
+import MEDIA1 from './media1.png'
+import MEDIA2 from './media2.png'
+import MEDIA3 from './media3.png'
+import MEDIA4 from './media4.png'
+import MEDIA5 from './media5.png'
 
-
-export { LOGO, CEO, HERO_IMAGE, PSNANDA, NAVNEEN, NARENDRA, SETTY, JAYAKUMAR, PATTHABHI, COMPANY, BBF_LOGO, BH, BLB, KH, NFPL, NANDUS };
+export { LOGO, CEO, HERO_IMAGE, PSNANDA, NAVNEEN, NARENDRA, SETTY, 
+        JAYAKUMAR, PATTHABHI, COMPANY, BBF_LOGO, BH, BLB, KH, NFPL, NANDUS,
+        MEDIA1, MEDIA2, MEDIA3, MEDIA4, MEDIA5};

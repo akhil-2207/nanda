@@ -4,7 +4,7 @@ import './App.css'
 
 export default function App() {
   return (
-    <div className="scroll-smooth">
+    <div className="scroll-smooth ">
       <LandingPage />
     </div>
   );

@@ -9,23 +9,23 @@ function Header() {
   };
   return (
     <>
-      <div className="md:block hidden">
-        <div className="container flex flex-row justify-between items-center h-16 bg-primary-foreground z-50">
+      <div className="md:block hidden ">
+        <div className="container flex flex-row justify-between items-center h-16 ml-4 bg-white ">
           <div className="md:block hidden">
-            <img src={LOGO} className="h-14" alt="" />
+            <img src={LOGO} className="h-14 z-50" alt="" />
           </div>
           <nav className="flex flex-row gap-6">
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#Business">Business</a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50 " href="#who-we-are" >Who We Are </a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#The-Team">The Team</a>
-            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">Media</a>
+            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#carousel">Media</a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">Contact</a>
           </nav>
         </div>
       </div>
 
       <div className="relative">
-        <div className="md:hidden h-16 bg-primary-foreground container flex items-center justify-between px-4 ">
+        <div className="md:hidden h-16 bg-white container flex items-center justify-between px-4 ">
           <img src={LOGO} alt="Logo" className="h-10" />
           <button
             onClick={toggleMenu}
@@ -60,7 +60,7 @@ function Header() {
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"
               href="#Business"
             >
-              About Us
+              Business
             </a>
             <a onClick={() => setIsOpen(false)}
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"
@@ -76,7 +76,7 @@ function Header() {
             </a>
             <a onClick={() => setIsOpen(false)}
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"
-              href="#"
+              href="#carousel"
             >
               Media
             </a>

@@ -1,6 +1,6 @@
 import { BLB,BBF_LOGO,BH,NFPL,KH } from "@/assets/images";
 import BusinessMarquee from "@/components/custom/businesss";
-import React from 'react'
+
 
 const items = [
     {
@@ -28,7 +28,7 @@ const items = [
 
 function BusinessSection() {
   return (
-    <div id="Business" className="h-[80vh] flex flex-col items-center justify-center ">
+    <div id="Business" className="h-[80vh] flex flex-col items-center justify-center bg-white">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-10 text-center">
                   Our Businesses
                 </h2>
