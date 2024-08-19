@@ -1,5 +1,5 @@
 import Header from "@/components/custom/header";
-import App from "@/App";
+
 
 import HeroSection from "./components/hero-section";
 import WhatDoWeDo from "./components/what-do-we-do";
