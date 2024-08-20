@@ -9,14 +9,14 @@ function Header() {
   };
   return (
     <>
-      <div className="md:block hidden ">
-        <div className="container flex flex-row justify-between items-center h-16 ml-4 bg-white ">
+      <div className="md:block hidden">
+        <div className="container flex flex-row justify-between items-center h-16 bg-white ">
           <div className="md:block hidden">
             <img src={LOGO} className="h-14 z-50" alt="" />
           </div>
           <nav className="flex flex-row gap-6">
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#Business">Business</a>
-            <a className="hover:text-primary font-medium text-md transition duration-200 z-50 " href="#who-we-are" >Who We Are </a>
+            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#who-we-are" >Who We Are </a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#The-Team">The Team</a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#carousel">Media</a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">Contact</a>

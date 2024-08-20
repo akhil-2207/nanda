@@ -1,4 +1,4 @@
-import { BLB,BBF_LOGO,BH,NFPL,KH } from "@/assets/images";
+import { BLB,BBF_LOGO,BH,NFPL,KH, NANDUS } from "@/assets/images";
 import BusinessMarquee from "@/components/custom/businesss";
 
 
@@ -23,15 +23,19 @@ const items = [
         title: "Komarla Hatcheries",
         image: KH
     },
+    {
+        title: "Nandus",
+        image: NANDUS
+    },
 
 ]
 
 function BusinessSection() {
   return (
-    <div id="Business" className="h-[80vh] flex flex-col items-center justify-center bg-white">
+    <div id="Business" className="h-[80vh] flex flex-col items-center justify-center">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-10 text-center">
                   Our Businesses
-                </h2>
+          </h2>
     <BusinessMarquee
      items={items}
      direction='left'

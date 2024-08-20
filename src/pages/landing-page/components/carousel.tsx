@@ -23,8 +23,8 @@ export function CarouselSpacing() {
       src: MEDIA5, alt: "Image 5" }, // Add your image paths here
   ];
   return (
-    <Carousel id="carousel" className="w-full bg-white">
-      <CarouselContent className="-ml-0.5">
+    <Carousel id="carousel" className="w-full">
+      <CarouselContent className="-ml-0.5 ">
         {/* {Array.from({ length: 5 }).map((_, index) => (
           <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
@@ -40,10 +40,10 @@ export function CarouselSpacing() {
           </CarouselItem>
         ))} */}
         {couroselimg.map((couroselimg) => (
-          <CarouselItem key={couroselimg.id} className="pl-1 md:basis-1/2 lg:basis-1/3">
+          <CarouselItem key={couroselimg.id} className="pl-1 md:basis-1/2 lg:basis-1/3  ">
             <div className="p-1">
               <Card>
-                <CardContent className="flex aspect-video items-center justify-center p-6">
+                <CardContent className="flex aspect-video items-center justify-center p-3">
                   <img src ={couroselimg.src} alt={couroselimg.alt} className="object-cover" />
                 </CardContent>
               </Card>
