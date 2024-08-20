@@ -16,8 +16,8 @@ function LandingPage() {
       <WhatDoWeDo />
       <CrewMembers />
       <BusinessSection/> 
-      <div className="text-center mb-5 -mt-10 font-semibold text-2xl md:text-4xl"> Media</div>
-      <div className="container px-20">
+      <div className="text-center mb-5 mt-5  font-semibold text-2xl md:text-4xl"> Media</div>
+      <div className="container px-14">
       <CarouselSpacing/>
       </div>
       

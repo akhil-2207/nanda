@@ -32,7 +32,7 @@ const items = [
 
 function BusinessSection() {
   return (
-    <div id="Business" className="h-[80vh] flex flex-col items-center justify-center">
+    <div id="Business" className="max-h-[80vh] flex flex-col items-center justify-center md:mt-5 mt-5">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-10 text-center">
                   Our Businesses
           </h2>

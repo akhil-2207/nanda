@@ -1,7 +1,7 @@
 import { LOGO } from "@/assets/images"; // Import your logo image
 function Footer() {
     return (
-        <footer className="bg-primary text-white pt-8 w-full mt-20">
+        <footer className="bg-primary  pt-8 w-full mt-14">
             <div className="container font-normal mx-auto flex flex-col md:flex-col justify-between w-full">
                 {/* Top Section */}
                 <div className="flex flex-col md:flex-row md:justify-between w-full">
