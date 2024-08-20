@@ -32,8 +32,8 @@ const items = [
 
 function BusinessSection() {
   return (
-    <div id="Business" className="max-h-[80vh] flex flex-col items-center justify-center md:mt-5 mt-5">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-10 text-center">
+    <div id="Business" className="max-h-[80vh] md:min-h-[60vh] h-fit  flex flex-col items-center justify-center md:mt-5 mt-5">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-10  text-center">
                   Our Businesses
           </h2>
     <BusinessMarquee

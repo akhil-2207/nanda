@@ -40,9 +40,9 @@ const crewMembers = [
 
 function CrewSection() {
     return (
-        <div id="The-Team" className="h-fit px-4 bg-white container">
+        <div id="The-Team" className="h-fit px-4  container">
             <div className="container mx-auto">
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-10 text-center">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-8 mt-8 text-center">
                     Meet Our Team
                 </h2>
                 <div className="flex flex-col justify-center items-center">
@@ -56,7 +56,7 @@ function CrewSection() {
                             <h3 className="text-xl md:text-2xl font-semibold mt-4">
                                 {crewMembers[0].name}
                             </h3>
-                            <p className="text-md md:text-lg font-normal text-gray-600">
+                            <p className="text-md md:text-lg font-normal text-gray-600 text-center">
                                 {crewMembers[0].position}
                             </p>
                         </div>
