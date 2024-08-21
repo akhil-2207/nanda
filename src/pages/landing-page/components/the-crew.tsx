@@ -41,7 +41,7 @@ const crewMembers = [
 function CrewSection() {
     return (
         <div id="The-Team" className="h-fit px-4  container">
-            <div className="container mx-auto">
+            <div className="container mx-auto p-1">
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-8 mt-8 text-center">
                     Meet Our Team
                 </h2>
@@ -61,9 +61,9 @@ function CrewSection() {
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-wrap items-center justify-center md:gap-10 md:w-[100%]">
+                    <div className="flex flex-wrap items-center justify-center md:gap-10 md:w-[100%] ">
                         {crewMembers.slice(1).map((member, index) => (
-                            <div key={index} className="w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                            <div key={index} className="w-1/2 md:w-1/3 lg:w-1/4 md:p-4 pb-10">
                                 <div className="flex flex-col items-center">
                                     <img
                                         src={member.image} 
