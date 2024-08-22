@@ -19,7 +19,7 @@ function Header() {
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#who-we-are" >Who We Are </a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#The-Team">The Team</a>
             <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="#carousel">Media</a>
-            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="">Contact</a>
+            <a className="hover:text-primary font-medium text-md transition duration-200 z-50" href="mailto:info@nandagroup.in">Contact</a>
           </nav>
         </div>
       </div>

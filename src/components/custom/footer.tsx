@@ -1,14 +1,16 @@
-import { LOGO } from "@/assets/images"; // Import your logo image
+// import { LOGO } from "@/assets/images"; // Import your logo image
 function Footer() {
     return (
         <footer className="bg-primary  pt-8 w-full mt-14">
-            <div className="container font-normal mx-auto flex flex-col md:flex-col justify-between w-full">
+            <div className="container font-normal mx-auto flex flex-col md:flex-col justify-beween w-full">
                 {/* Top Section */}
-                <div className="flex flex-col md:flex-row md:justify-between w-full">
-                    <div>
-                        <img src={LOGO} alt="Company Logo" className="h-12 w-12 mb-4" />
+                <div className=" flex flex-col md:flex-row md:gap-64  w-full ">
+                    <div className="flex flex-col md:w-fit md:ml-2">
+                        {/* <img src={LOGO} alt="Company Logo" className="h-12 w-12 mb-4" /> */}
+                        <p className="md:text-lg font-semibold mb-2">Nanda Group Of Companies</p>
+                        <p className="md:mb-0 mb-6">Farming Quality Meat Since 1963</p>
                     </div>
-                    <div className="flex flex-col md:w-1/3 mb-6 md:mb-0">
+                    <div className="flex flex-col md:w-fit mb-6 md:mb-0">
                         <p className="text-lg font-semibold mb-2">OUR ADDRESS</p>
                         <p className="text-base">
                             INDIA<br />
@@ -17,12 +19,14 @@ function Footer() {
                             Bengaluru, Karnataka 560041
                         </p>
                     </div>
-                    <div className="flex flex-col md:w-1/3 mb-6 md:mb-0">
+                    <div className="flex flex-col md:w-fit mb-6 md:mb-0">
                         <p className="text-lg font-semibold mb-2">CALL US</p>
-                        <p className="text-base mb-4">+91-80-2244-9628</p>
-                        <div className="flex space-x-4">
-                            <a href="#about" className="hover:text-secondary transition-colors duration-300">About Us</a>
-                            <a href="#contact" className="hover:text-secondary transition-colors duration-300">Contact Us</a>
+                        <p className="text-base md:mb-6 mb-3">+91-80-2244-9628
+                           <br/> <a href="mailto:info@nandagroup.in" className="hover:underline">info@nandagroup.in</a>
+                        </p>
+                        <div className="flex space-x-4 ">
+                            <a href="#who-we-are" className="hover:text-secondary transition-colors duration-300">About Us</a>
+                            <a href="mailto:info@nandagroup.in" className="hover:text-secondary transition-colors duration-300">Contact Us</a>
                         </div>
                     </div>
 

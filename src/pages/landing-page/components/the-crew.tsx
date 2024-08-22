@@ -42,7 +42,7 @@ function CrewSection() {
     return (
         <div id="The-Team" className="h-fit px-4  container">
             <div className="container mx-auto p-1">
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-8 mt-8 text-center">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-3 mt-8 text-center">
                     Meet Our Team
                 </h2>
                 <div className="flex flex-col justify-center items-center">

@@ -1,6 +1,4 @@
 import Header from "@/components/custom/header";
-
-
 import HeroSection from "./components/hero-section";
 import WhatDoWeDo from "./components/what-do-we-do";
 import CrewMembers from "./components/the-crew";
@@ -16,7 +14,7 @@ function LandingPage() {
       <WhatDoWeDo />
       <CrewMembers />
       <BusinessSection/> 
-      <div className="text-center mb-5 mt-5  font-semibold text-2xl md:text-4xl"> Media</div>
+      <div className="text-center mb-7 mt-5  font-semibold text-2xl md:text-4xl"> Media</div>
       <div className="container px-14">
       <CarouselSpacing/>
       </div>
