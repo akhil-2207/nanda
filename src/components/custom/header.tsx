@@ -82,7 +82,7 @@ function Header() {
             </a>
             <a onClick={() => setIsOpen(false)}
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"
-              href="#"
+              href="mailto:info@nandagroup.in"
             >
               Contact
             </a>
