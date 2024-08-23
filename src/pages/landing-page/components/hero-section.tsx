@@ -14,7 +14,7 @@ function HeroSection() {
       <div className="container md:-ml-8 p-0 ">
         <img src={HERO_IMAGE} className="md:h-[250px] h-20 " alt="" />
       </div>
-      <img src={CEO} alt="" className="absolute bottom-0 md:h-[700px] right-0 h-48 " />
+      <img src={CEO} alt="" className="absolute bottom-0 md:h-[650px] right-0 h-48  " />
     </div>
   );
 }

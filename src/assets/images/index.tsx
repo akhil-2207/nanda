@@ -20,6 +20,7 @@ import MEDIA3 from './media3.png'
 import MEDIA4 from './media4.png'
 import MEDIA5 from './media5.png'
 import LOCATION from './nanda group location on map.png'
+import VENKAT from './venkat sir.png'
 export { LOGO, CEO, HERO_IMAGE, PSNANDA, NAVNEEN, NARENDRA, SETTY, 
         JAYAKUMAR, PATTHABHI, COMPANY, BBF_LOGO, BH, BLB, KH, NFPL, NANDUS,
-        MEDIA1, MEDIA2, MEDIA3, MEDIA4, MEDIA5, LOCATION};
+        MEDIA1, MEDIA2, MEDIA3, MEDIA4, MEDIA5, LOCATION, VENKAT};

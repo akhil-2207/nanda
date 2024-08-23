@@ -1,4 +1,4 @@
-import { JAYAKUMAR, NARENDRA, NAVNEEN, PATTHABHI, PSNANDA, SETTY } from "@/assets/images";
+import { JAYAKUMAR, NARENDRA, NAVNEEN, PATTHABHI, PSNANDA, SETTY, VENKAT } from "@/assets/images";
 
 // Dummy data for crew members
 const crewMembers = [
@@ -19,7 +19,7 @@ const crewMembers = [
     },
     {   name: "Venkat Rao",
         position: "Business Head",
-        image: PATTHABHI,
+        image: VENKAT,
     },
     {
         name: "A. N. Setty",
@@ -68,7 +68,7 @@ function CrewSection() {
                                     <img
                                         src={member.image} 
                                         alt={member.name}
-                                        className="w-32 h-32 md:w-40 md:h-40 object-cover shadow-lg border-primary border"
+                                        className="w-32 h-32 md:w-40 md:h-48 object-cover shadow-lg border-primary border"
                                     />
                                     <h3 className="text-sm md:text-xl text-center font-semibold mt-4">
                                         {member.name}
