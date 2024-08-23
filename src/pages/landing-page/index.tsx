@@ -5,6 +5,7 @@ import CrewMembers from "./components/the-crew";
 import Footer from "@/components/custom/footer";
 import BusinessSection from "./components/business";
 import { CarouselSpacing } from "./components/carousel";
+import LocationSection from "./components/our-locations";
 
 function LandingPage() {
   return (
@@ -18,7 +19,8 @@ function LandingPage() {
       <div className="container px-14">
       <CarouselSpacing/>
       </div>
-      
+      <LocationSection/>
+
       <Footer />
   
     </div>

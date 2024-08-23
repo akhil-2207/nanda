@@ -43,8 +43,8 @@ function BusinessSection() {
           </p> */}
     <BusinessMarquee
      items={items}
-     direction='right'
-     speed='normal'
+     direction='left'
+     speed='fast'
     />
     </div>
   )

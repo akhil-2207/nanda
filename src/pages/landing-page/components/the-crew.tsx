@@ -23,17 +23,17 @@ const crewMembers = [
     },
     {
         name: "A. N. Setty",
-        position: "livestock operations",
+        position: "COO",
         image: SETTY,
     },
     {
-        name: "Dr. Jaya Kumar",
+        name: "Dr. R JayaKumar",
         position: "Breeder Operations",
         image: JAYAKUMAR,
     },
     {
         name: "Dr. Pattabhi",
-        position: "Chief Nutritionist",
+        position: "Group Nutritionist",
         image: PATTHABHI,
     },
 ];
