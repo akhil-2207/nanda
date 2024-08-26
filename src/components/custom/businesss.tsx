@@ -1,7 +1,7 @@
 import { cn } from '@/lib/utils';
 import React, { useEffect, useState } from 'react';
 
-const BusinessMarquee = ({
+const  BusinessMarquee = ({
     items,
     direction = 'left',
     speed,
