@@ -68,7 +68,7 @@ function CrewSection() {
                                     <img
                                         src={member.image} 
                                         alt={member.name}
-                                        className="w-32 h-32 md:w-40 md:h-48 object-cover shadow-lg border-primary border"
+                                        className="w-32 h-40 md:w-40 md:h-48 object-cover shadow-lg border-primary border"
                                     />
                                     <h3 className="text-sm md:text-xl text-center font-semibold mt-4">
                                         {member.name}
