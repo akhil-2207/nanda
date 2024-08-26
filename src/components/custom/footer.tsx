@@ -1,4 +1,4 @@
- import { LOGO } from "@/assets/images"; // Import your logo image
+// import { LOGO } from "@/assets/images"; // Import your logo image
 function Footer() {
     return (
         <footer className="bg-primary  pt-8 w-full mt-14">
