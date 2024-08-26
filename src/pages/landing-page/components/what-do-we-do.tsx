@@ -30,7 +30,7 @@ function WhatDoWeDo() {
                         state of the art facilities across southern and western parts of India, 
                         today Nanda Group produces 75,000 tones of poultry feed and collaborates with more than 3,000 farmers to produce 60 million chicken annually.
                         </p>
-                        <img src={COMPANY} alt="" className=" md:w-[400px] h-[250px] rounded-2xl -mt-10 md:mt-1" />
+                        <img src={COMPANY} alt="" className=" md:w-[400px] h-[250px]  rounded-2xl -mt-10 md:mt-1 " />
                     </div>
 
                 </div>

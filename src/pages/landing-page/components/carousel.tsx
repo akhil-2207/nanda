@@ -68,10 +68,10 @@ export function CarouselSpacing() {
 
     {selectedImage && (
       <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-        <div className="bg-white p-4 rounded-lg max-w-lg w-full">
+        <div className="bg-white p-4 rounded-lg md:max-w-3xl w-full">
           <img src ={selectedImage.src} alt={selectedImage.src} className="w-full h-auto" />
           <button
-            className="mt-4 bg-red-500 text-white py-2 px-4 rounded"
+            className="mt-4 bg-red-500 text-white font-normal py-2 px-4 rounded"
             onClick={closeModal}
           >
             Close

@@ -1,4 +1,4 @@
-import { JAYAKUMAR, NARENDRA, NAVNEEN, PATTHABHI, PSNANDA, SETTY, VENKAT } from "@/assets/images";
+import { JAYAKUMAR, NARENDRA, NAVNEEN, PATTHABHI, PSNANDA, SETTY, VENKAT, NARENDRAUPDATED } from "@/assets/images";
 
 // Dummy data for crew members
 const crewMembers = [
@@ -15,7 +15,7 @@ const crewMembers = [
     {
         name: "Narendra Pasuparthy",
         position: "Chief Farmer",
-        image: NARENDRA,
+        image: NARENDRAUPDATED,
     },
     {   name: "Venkat Rao",
         position: "Business Head",
@@ -34,6 +34,11 @@ const crewMembers = [
     {
         name: "Dr. Pattabhi",
         position: "Group Nutritionist",
+        image: PATTHABHI,
+    },
+    {
+        name: "Dr. Kiran T S",
+        position: "Broiler Integration",
         image: PATTHABHI,
     },
 ];
@@ -62,8 +67,8 @@ function CrewSection() {
                         </div>
                     </div>
                     <div className="flex flex-wrap items-center justify-center md:gap-10 md:w-[100%] ">
-                        {crewMembers.slice(1).map((member, index) => (
-                            <div key={index} className="w-1/2 md:w-1/3 lg:w-1/4 md:p-4 pb-10">
+                        {crewMembers.slice(1).map((member, index) => ( //change the lg w- to 1/4 
+                           <div key={index} className="w-1/2 md:w-1/3 lg:w-1/5 md:p-4 pb-10">  
                                 <div className="flex flex-col items-center">
                                     <img
                                         src={member.image} 
