@@ -1,4 +1,4 @@
-import { JAYAKUMAR, NARENDRA, NAVNEEN, PATTHABHI, PSNANDA, SETTY, VENKAT, NARENDRAUPDATED } from "@/assets/images";
+import { JAYAKUMAR, NAVNEEN, PATTHABHI, PSNANDA, SETTY, VENKAT, NARENDRAUPDATED } from "@/assets/images";
 
 // Dummy data for crew members
 const crewMembers = [
