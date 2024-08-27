@@ -40,7 +40,7 @@ function BusinessSection() {
     <BusinessMarquee
      items={items}
      direction='left'
-     speed='normal'
+     speed='fast'
     />
     </div>
   )
