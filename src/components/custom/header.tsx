@@ -1,12 +1,34 @@
 import { LOGO } from "@/assets/images";
-import { useState } from "react";
-//import App from "@/App";
-function Header() {
+import { useState , useEffect } from "react";
+function Header() 
+{
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  // const toggleMenu = () => {
+  //   setIsOpen(!isOpen);
+    const toggleMenu = () => 
+    {
+      setIsOpen(prev => !prev);
+    };
+
+    useEffect(() => 
+    {
+      if (isOpen) {
+        // Disable scrolling when menu is open
+        document.body.style.overflow = "hidden";
+      } else 
+      {
+        // Re-enable scrolling when menu is closed
+        document.body.style.overflow = "";
+      }
+    
+      // Cleanup function to ensure overflow is reset on unmount
+      return () => 
+      {
+        document.body.style.overflow = "";
+      };
+    }, [isOpen]);
+
   return (
     <>
       <div className="md:block hidden">
