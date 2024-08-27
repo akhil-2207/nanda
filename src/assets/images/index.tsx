@@ -23,7 +23,6 @@ import LOCATION from './nanda group location on map.png'
 import VENKAT from './venkat sir.png'
 import BADMINTONSPONSORMEDIA from './badmintonsponsorpic.png'
 import BADMINTONSPONSORMEDIA2 from "./badmintonsponsor pic 2.png"
-import BADMINTONSPONSORMEDIA3 from "./badminton sponsor pic 3.jpeg"
 import USSECMEDIA1 from "./USSEC pic 1.png"
 import USSECMEDIA2 from "./USSEC pic 2.png";
 import NARENDRAUPDATED from "./narendre sir pic updated.png"
@@ -31,4 +30,4 @@ import NARENDRAUPDATED from "./narendre sir pic updated.png"
 export { LOGO, CEO, HERO_IMAGE, PSNANDA, NAVNEEN, NARENDRA, SETTY, 
         JAYAKUMAR, PATTHABHI, COMPANY, BBF_LOGO, BH, BLB, KH, NFPL, NANDUS,
         MEDIA1, MEDIA2, MEDIA3, MEDIA4, MEDIA5, LOCATION, VENKAT, BADMINTONSPONSORMEDIA,
-        BADMINTONSPONSORMEDIA2, BADMINTONSPONSORMEDIA3, USSECMEDIA1, USSECMEDIA2, NARENDRAUPDATED};
+        BADMINTONSPONSORMEDIA2, USSECMEDIA1, USSECMEDIA2, NARENDRAUPDATED};

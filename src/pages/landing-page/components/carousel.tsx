@@ -3,6 +3,7 @@ import { MEDIA1, MEDIA3, MEDIA4,BADMINTONSPONSORMEDIA, BADMINTONSPONSORMEDIA2,
 
 import { Card, CardContent } from "@/components/ui/card"
 import { useState } from "react";
+import { useEffect } from "react";
 import {
   Carousel,
   CarouselContent,
@@ -32,17 +33,31 @@ export function CarouselSpacing() {
     { id: 5, 
       src: MEDIA4, alt: "Image 5" }, // Add your image paths here
     { id: 6, 
-      src: MEDIA3, alt: "Image 5" },
+      src: MEDIA3, alt: "Image 6" },
     { id: 7, 
-      src: MEDIA1, alt: "Image 5" }, 
+      src: MEDIA1, alt: "Image 7" }, 
   ];
     const handleImageClick = (image: CarouselImage) => {
     setSelectedImage(image);
+
+    // Disable scroll
+    document.body.style.overflow = 'hidden';
     };
 
     const closeModal = () => {
     setSelectedImage(null);
+    
+    // Enable scroll
+    document.body.style.overflow = 'auto';
     };
+
+    useEffect(() => {
+      return () => {
+        // Reset scroll behavior when component unmounts
+        document.body.style.overflow = 'auto';
+      };
+    }, []);
+
   return (
   <div>  
     <Carousel id="carousel" className="w-full">

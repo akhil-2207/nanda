@@ -1,6 +1,6 @@
 import { JAYAKUMAR, NAVNEEN, PATTHABHI, PSNANDA, SETTY, VENKAT, NARENDRAUPDATED } from "@/assets/images";
 
-// Dummy data for crew members
+// data for crew members will be arranged in this order
 const crewMembers = [
     {
         name: "P S Nanda Kumar",
@@ -50,6 +50,8 @@ function CrewSection() {
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-3 mt-8 text-center">
                     Meet Our Team
                 </h2>
+                
+                {/* Div for 1st image of the founder */}
                 <div className="flex flex-col justify-center items-center">
                     <div className="w-full md:w-2/3 lg:w-1/2 p-4 mb-10">
                         <div className="flex flex-col items-center">
@@ -66,6 +68,8 @@ function CrewSection() {
                             </p>
                         </div>
                     </div>
+
+                    {/* Div for rest of the crew members starting from index 1 */}
                     <div className="flex flex-wrap items-center justify-center md:gap-10 md:w-[100%] ">
                         {crewMembers.slice(1).map((member, index) => ( //change the lg w- to 1/4 
                            <div key={index} className="w-1/2 md:w-1/3 lg:w-1/5 md:p-4 pb-10">  
