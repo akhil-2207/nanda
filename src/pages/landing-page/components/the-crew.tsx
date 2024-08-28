@@ -1,4 +1,4 @@
-import { JAYAKUMAR, NAVNEEN, PATTHABHI, PSNANDA, SETTY, VENKAT, NARENDRAUPDATED } from "@/assets/images";
+import { JAYAKUMAR, NAVNEEN, PATTHABHI, PSNANDA, SETTY, VENKAT, NARENDRAUPDATED,KIRAN } from "@/assets/images";
 
 // data for crew members will be arranged in this order
 const crewMembers = [
@@ -39,7 +39,7 @@ const crewMembers = [
     {
         name: "Dr. Kiran T S",
         position: "Broiler Integration",
-        image: PATTHABHI,
+        image: KIRAN,
     },
 ];
 

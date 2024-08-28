@@ -1,27 +1,53 @@
 // import { LOGO } from "@/assets/images"; // Import your logo image
+import { FaXTwitter,FaFacebook, FaInstagram,FaLinkedin } from "react-icons/fa6"; // icons imported
+
+
 function Footer() {
     return (
         <footer className="bg-primary  pt-8 w-full mt-14">
             <div className="container font-normal mx-auto flex flex-col md:flex-col justify-beween w-full">
+                
                 {/* Top Section */}
                 <div className=" flex flex-col md:flex-row md:gap-64  w-full ">
                     <div className="flex flex-col md:w-fit md:ml-2">
-                        <p className="md:text-lg font-semibold mb-2">Nanda Group Of Companies</p>
-                        <p className="md:mb-0 mb-6">Farming Quality Meat Since 1963</p>
+                        <p className="md:text-lg font-semibold mb-2">NANDA GROUP OF COMPANIES</p>
+                        <p className="md:mb-0 mb-2">Farming Quality Meat Since 1963</p>
                         {/* <img src={LOGO} alt="Company Logo" className="h-15 w-20 mb-4" />  */}
+                        <div className="flex space-x-7 md:mt-4 md:mb-0 mb-6">
+                            {/* Facebook */}
+                            <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <FaFacebook className="text-gray-800 hover:text-black" size={30} />
+                            </a>
+
+                            {/* Twitter */}
+                            <a href="https://www.twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <FaXTwitter className="text-gray-800 hover:text-black" size={30} />
+                            </a>
+
+                            {/* Instagram */}
+                            <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <FaInstagram className="text-gray-800 hover:text-black" size={30} />
+                            </a>
+
+                            {/* LinkedIn */}
+                            <a href="https://www.linkedin.com/company/nanda-group/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
+                                <FaLinkedin className="text-gray-800 hover:text-black" size={30} />
+                            </a>
+                        </div>
+
                     </div>
                     <div className="flex flex-col md:w-fit mb-6 md:mb-0">
                         <p className="text-lg font-semibold mb-2">OUR ADDRESS</p>
                         <p className="text-base">
                             INDIA<br />
-                            #377/61, 2nd Floor, 43rd Cross, 9th Main,<br />
+                            #377/61, 43rd Cross, 9th Main,<br />
                             5th Block, Jayanagar,<br />
                             Bengaluru, Karnataka 560041
                         </p>
                     </div>
                     <div className="flex flex-col md:w-fit mb-6 md:mb-0">
                         <p className="text-lg font-semibold mb-2">CALL US</p>
-                        <p className="text-base md:mb-6 mb-3">+91-80-2244-9628
+                        <p className="text-base md:mb-3 mb-3">+91-80-2244-9628
                            <br/> <a href="mailto:info@nandagroup.in" className="hover:underline">info@nandagroup.in</a>
                         </p>
                         <div className="flex space-x-4 ">

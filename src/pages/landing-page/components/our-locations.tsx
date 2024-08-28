@@ -12,13 +12,14 @@ function LocationSection(){
                     <img className="mt-4 md:min-h-[80vh]  " src={LOCATION} alt="our locations" />
 
                     {/* desktop image for desktop view only */}
-                    <img className="mt-10 hidden md:block " src={NANDUIMG} alt="" />
+                    <img className="mt-10 hidden md:block p-4 " src={NANDUIMG} alt="" />
 
                     {/* mobile image for mobile view only */}
                     <img className="mt-10 block md:hidden" src={NANDUIMGMOBILE} alt="" />
 
                     <button onClick={() => window.open("https://www.nandus.com/home", "_blank")}
-                    className="items-center md:py-2 md:px-4 bg-red-600 hover:bg-red-800 transition rounded font-normal md:text-lg text-sm py-1 px-2  text-white mt-2"> Order Now!</button>
+                    className="items-center md:py-2 md:px-4 text-gray-900 bg-secondary hover:bg-red-800 transition rounded 
+                    font-normal md:text-lg text-sm py-1 px-2 shadow-md hover:text-white mt-2"> Order Now!</button>
                 </div>
             </div>
             
