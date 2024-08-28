@@ -62,6 +62,7 @@ export function CarouselSpacing() {
   return (
   <div>  
     <Carousel id="carousel" className="w-full">
+    <div className="text-center mb-7 mt-5  font-semibold text-2xl md:text-4xl"> Media</div>
       <CarouselContent className="-ml-0.5 ">
         {couroselimg.map((couroselimg) => (
           <CarouselItem key={couroselimg.id} className="pl-1 md:basis-1/2 lg:basis-1/3  ">
