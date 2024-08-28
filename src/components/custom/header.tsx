@@ -86,7 +86,7 @@ function Header()
             </a>
             <a onClick={() => setIsOpen(false)}
               className="hover:text-secondary font-medium text-md transition duration-200 z-50"
-              href="who-we-are"
+              href="#who-we-are"
             >
               Who We Are
             </a>
