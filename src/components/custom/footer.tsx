@@ -8,25 +8,25 @@ function Footer() {
             <div className="container font-normal mx-auto flex flex-col md:flex-col justify-beween w-full">
                 
                 {/* Top Section */}
-                <div className=" flex flex-col md:flex-row md:gap-64  w-full ">
-                    <div className="flex flex-col md:w-fit md:ml-2">
+                <div className=" flex flex-col md:flex-row lg:gap-64 md:gap-4 w-full ">
+                    <div className="flex flex-col md:w-fit md:ml-2 lg:w-fit">
                         <p className="md:text-lg font-semibold mb-2">NANDA GROUP OF COMPANIES</p>
                         <p className="md:mb-0 mb-2">Farming Quality Meat Since 1963</p>
                         {/* <img src={LOGO} alt="Company Logo" className="h-15 w-20 mb-4" />  */}
                         <div className="flex space-x-7 md:mt-4 md:mb-0 mb-6">
                             {/* Facebook */}
-                            <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                            <a href="#empty" target="" rel="noopener noreferrer">
                                 <FaFacebook className="text-gray-800 hover:text-black" size={30} />
                             </a>
 
-                            {/* Twitter */}
-                            <a href="https://www.twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
-                                <FaXTwitter className="text-gray-800 hover:text-black" size={30} />
+                            {/* Instagram */}
+                            <a href="#empty" target="" rel="noopener noreferrer">
+                                <FaInstagram className="text-gray-800 hover:text-black" size={30} />
                             </a>
 
-                            {/* Instagram */}
-                            <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
-                                <FaInstagram className="text-gray-800 hover:text-black" size={30} />
+                            {/* Twitter */}
+                            <a href="#empty" target="" rel="noopener noreferrer">
+                                <FaXTwitter className="text-gray-800 hover:text-black" size={30} />
                             </a>
 
                             {/* LinkedIn */}

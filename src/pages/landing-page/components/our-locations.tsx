@@ -15,7 +15,7 @@ function LocationSection(){
                     <img className="mt-10 hidden md:block p-4 " src={NANDUIMG} alt="" />
 
                     {/* mobile image for mobile view only */}
-                    <img className="mt-10 block md:hidden" src={NANDUIMGMOBILE} alt="" />
+                    <img className="mt-10 block md:hidden " src={NANDUIMGMOBILE} alt="" />
 
                     <button onClick={() => window.open("https://www.nandus.com/home", "_blank")}
                     className="items-center md:py-2 md:px-4 text-gray-900 bg-secondary hover:bg-red-800 transition rounded 

@@ -32,7 +32,7 @@ function Header()
   return (
     <>
       <div className="md:block hidden">
-        <div className="container flex flex-row justify-between items-center h-16 bg-white ">
+        <div className="  flex flex-row justify-between  items-center h-16 mx-6 bg-white ">
           <div className="md:block hidden">
             <img src={LOGO} className="h-14 z-50" alt="" />
           </div>

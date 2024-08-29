@@ -70,14 +70,14 @@ function CrewSection() {
                     </div>
 
                     {/* Div for rest of the crew members starting from index 1 */}
-                    <div className="flex flex-wrap items-center justify-center md:gap-10 md:w-[100%] ">
+                    <div className="flex flex-wrap justify-center lg:gap-10 md:gap-1 md:w-[100%] md:justify-around">
                         {crewMembers.slice(1).map((member, index) => ( //change the lg w- to 1/4 
                            <div key={index} className="w-1/2 md:w-1/3 lg:w-1/5 md:p-4 pb-10">  
                                 <div className="flex flex-col items-center">
                                     <img
                                         src={member.image} 
                                         alt={member.name}
-                                        className="w-32 h-40 md:w-40 md:h-48 object-cover shadow-lg border-primary border"
+                                        className="w-32 h-40 md:w-40 md:h-48 object-cover shadow-lg border-primary border "
                                     />
                                     <h3 className="text-sm md:text-xl text-center font-semibold mt-4">
                                         {member.name}

@@ -71,7 +71,7 @@ export function CarouselSpacing() {
                 <CardContent className="flex aspect-auto items-center justify-center p-3 cursor-pointer"
                  onClick={() => handleImageClick(couroselimg)}>
                   <img src ={couroselimg.src} alt={couroselimg.alt} 
-                    className="md:h-64 opacity-100 hover:opacity-70 transition-opacity duration-500" />
+                    className="lg:h-64 opacity-100 hover:opacity-70 transition-opacity duration-500" />
                 </CardContent>
               </Card>
             </div>
