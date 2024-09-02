@@ -3,7 +3,7 @@ import { CEO, HERO_IMAGE } from "@/assets/images";
 
 function HeroSection() {
   return (
-    <div className=" flex flex-col max-h-[100vh] justify-start p-10 relative -mt-16 lg:pt-40 pt-20 gap-5 lg:gap-10 h-fit z-20 text-left">
+    <div className=" flex flex-col max-h-[100vh] justify-start md:p-10 p-5 relative -mt-16 lg:pt-40 pt-20 gap-5 lg:gap-10 h-fit z-20 text-left">
       <div className=" font-semibold text-4xl lg:w-[60%] md:w-[50%] ">
       A Trusted Name in Farm-to-Fork Poultry in India
 
