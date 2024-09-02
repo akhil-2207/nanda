@@ -1,5 +1,5 @@
 // import { LOGO } from "@/assets/images"; // Import your logo image
-import { FaXTwitter,FaFacebook, FaInstagram,FaLinkedin } from "react-icons/fa6"; // icons imported
+import { FaInstagram,FaLinkedin, FaYoutube } from "react-icons/fa6"; // icons imported
 
 
 function Footer() {
@@ -15,18 +15,18 @@ function Footer() {
                         {/* <img src={LOGO} alt="Company Logo" className="h-15 w-20 mb-4" />  */}
                         <div className="flex space-x-7 md:mt-4 md:mb-0 mb-6">
                             {/* Facebook */}
-                            <a href="#empty" target="" rel="noopener noreferrer">
+                            {/* <a href="#empty" target="" rel="noopener noreferrer">
                                 <FaFacebook className="text-gray-800 hover:text-black" size={30} />
-                            </a>
+                            </a> */}
 
                             {/* Instagram */}
-                            <a href="#empty" target="" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/nandusfoods?igsh=MW9wbXR2anFpOHBuMw==" target="_blank" rel="noopener noreferrer">
                                 <FaInstagram className="text-gray-800 hover:text-black" size={30} />
                             </a>
 
-                            {/* Twitter */}
-                            <a href="#empty" target="" rel="noopener noreferrer">
-                                <FaXTwitter className="text-gray-800 hover:text-black" size={30} />
+                            {/* Youtube */}
+                            <a href="https://www.youtube.com/channel/UC_Tj39KH4H1kt9MjomOMY5g" target="_blank" rel="noopener noreferrer">
+                                <FaYoutube className="text-gray-800 hover:text-black" size={30} />
                             </a>
 
                             {/* LinkedIn */}
@@ -45,7 +45,7 @@ function Footer() {
                             Bengaluru, Karnataka 560041
                         </p>
                     </div>
-                    <div className="flex flex-col md:w-fit mb-6 md:mb-0">
+                    <div className="flex flex-col md:w-fit md:mb-0">
                         <p className="text-lg font-semibold mb-2">CALL US</p>
                         <p className="text-base md:mb-3 mb-3">+91-80-2244-9628
                            <br/> <a href="mailto:info@nandagroup.in" className="hover:underline">info@nandagroup.in</a>
@@ -60,8 +60,8 @@ function Footer() {
 
                 {/* Bottom Section */}
                 <div className="flex flex-col md:flex-row md:justify-between w-full items-center md:items-center mt-8 border-t py-4">
-                    <p className="text-sm text-gray-300">
-                        Copyright 2020 Nanda Group
+                    <p className="text-sm text-gray-300 md:mb-0 mb-2 ">
+                        Copyright 2024 Nanda Group
                     </p>
                     <div className="flex flex-col md:w-1/9 items-center md:items-start">
                         <button
