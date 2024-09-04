@@ -1,5 +1,4 @@
-import { MEDIA1, MEDIA3, MEDIA4,BADMINTONSPONSORMEDIA, BADMINTONSPONSORMEDIA2,
-       USSECMEDIA1, USSECMEDIA2 } from "@/assets/images"
+import {BADMINTONSPONSORMEDIA, BADMINTONSPONSORMEDIA2,USSECMEDIA1, USSECMEDIA2 } from "@/assets/images"
 
 import { Card, CardContent } from "@/components/ui/card"
 import { useState } from "react";
@@ -32,19 +31,19 @@ export function CarouselSpacing() {
       des:"Badminton Academy" },
     { id: 3, 
       src: USSECMEDIA1, alt: "Image 3",
-      des:"USSEC-24 meet " }, // Add your image paths here
+      des:"Naveen Pasuparthy, President of Karnataka Poultry Farmers and Breeders Association (KPFBA) with USSEC’s CEO, Jim Sutter  " }, // Add your image paths here
     { id: 4, 
       src: USSECMEDIA2, alt: "Image 4",
-      des:"USSEC-24 meet" }, // Add your image paths here
-    { id: 5, 
-      src: MEDIA4, alt: "Image 5",
-      des:"Abdycdbhsbbcsbhbvjknksdjovhsjndv ksjnkvnkjd knk    dvsd sdsdc sdc sd cd sc s" }, // Add your image paths here
-    { id: 6, 
-      src: MEDIA3, alt: "Image 6",
-      des:"lorem ipsum" },
-    { id: 7, 
-      src: MEDIA1, alt: "Image 7",
-      des:"lorem ipsum" }, 
+      des:"USSEC and KPFBA signing of MoU on 19-August-2024" }, // Add your image paths and descriptions here       
+    // { id: 5, 
+    //   src: MEDIA4, alt: "Image 5",
+    //   des:"Abdycdbhsbbcsbhbvjknksdjovhsjndv ksjnkvnkjd knk    dvsd sdsdc sdc sd cd sc s" }, // Add your image paths here
+    // { id: 6, 
+    //   src: MEDIA3, alt: "Image 6",
+    //   des:"lorem ipsum" },
+    // { id: 7, 
+    //   src: MEDIA1, alt: "Image 7",
+    //   des:"lorem ipsum" }, 
   ];
     const handleImageClick = (image: CarouselImage) => {
     setSelectedImage(image);
@@ -96,7 +95,7 @@ export function CarouselSpacing() {
         <div className=" bg-white p-4 rounded-lg md:max-w-xl lg:max-w-2xl w-full">
           <img src ={selectedImage.src} alt={selectedImage.src} className="w-full h-auto" />
             <div className=" items-center text-wrap flex flex-col ">
-              <p className="xl:text-lg md:text-md text-sm font-semibold  ">
+              <p className="xl:text-lg md:text-md text-sm font-semibold ">
                 {selectedImage.des}
               </p>
             </div>
