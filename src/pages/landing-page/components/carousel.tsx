@@ -95,7 +95,7 @@ export function CarouselSpacing() {
         <div className=" bg-white p-4 rounded-lg md:max-w-xl lg:max-w-2xl w-full">
           <img src ={selectedImage.src} alt={selectedImage.src} className="w-full h-auto" />
             <div className=" items-center text-wrap flex flex-col ">
-              <p className="xl:text-lg md:text-md text-sm font-semibold ">
+              <p className="xl:text-lg md:text-md text-sm font-semibold  ">
                 {selectedImage.des}
               </p>
             </div>

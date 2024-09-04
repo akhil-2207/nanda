@@ -51,8 +51,8 @@ function Footer() {
                            <br/> <a href="mailto:info@nandagroup.in" className="hover:underline">info@nandagroup.in</a>
                         </p>
                         <div className="flex space-x-4 ">
-                            <a href="#who-we-are" className="hover:text-secondary transition-colors duration-300">About Us</a>
-                            <a href="mailto:info@nandagroup.in" className="hover:text-secondary transition-colors duration-300">Contact Us</a>
+                            <a href="#who-we-are" className="md:hover:text-secondary transition-colors duration-300">About Us</a>
+                            <a href="mailto:info@nandagroup.in" className="md:hover:text-secondary transition-colors duration-300">Contact Us</a>
                         </div>
                     </div>
 
@@ -66,7 +66,7 @@ function Footer() {
                     <div className="flex flex-col md:w-1/9 items-center md:items-start">
                         <button
                             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                            className="bg-secondary text-primary py-2 px-4 rounded shadow hover:bg-primary hover:text-white transition-all duration-300">
+                            className="bg-secondary text-primary py-2 px-4 rounded shadow md:hover:bg-primary  md:hover:text-white transition-all duration-300">
                             Back to Top
                         </button>
                     </div>
