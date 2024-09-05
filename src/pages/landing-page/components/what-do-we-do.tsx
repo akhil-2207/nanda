@@ -13,7 +13,7 @@ function WhatDoWeDo() {
                         <p className="text-base lg:w-[60%] md:text-lg lg:text-xl leading-relaxed flex h-fit text-justify md:mt-6  "> 
                         Today, we handle every facet of the industry, from breeding and hatcheries to feed manufacturing and broiler contract farming. 
                         We also create Ready To Eat (RTE) and Ready To Cook (RTC) products, and we have a robust online and offline retail presence. 
-                        <br /> With over 40 retail outlets and omnichannel operations, supported by 900+ farms, 10 hatcheries, 3 feed mills, and 2 processing units, we ensure farm-fresh,
+                        <br /> With over 40+ retail outlets and omnichannel operations, supported by 1,000+ farms, 10 hatcheries, 3 feed mills, and 2 processing units, we ensure farm-fresh,
                          delicious chicken is delivered straight to your home, all with an unwavering commitment to quality and care.
                         </p>
                         <img src={COMPANY} alt="" className=" md:w-[400px] h-[250px] md:h-[260px] rounded-2xl -mt-10 md:mt-1 " />

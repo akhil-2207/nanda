@@ -19,7 +19,8 @@ function LocationSection(){
 
                     <button onClick={() => window.open("https://www.nandus.com/home", "_blank")}
                     className="items-center md:py-2 md:px-4 text-gray-900 bg-secondary hover:bg-red-800 transition rounded 
-                    font-normal md:text-lg text-sm py-1 px-2 shadow-md hover:text-white mt-2"> Order Now!</button>
+                    font-normal md:text-lg text-sm py-1 px-2 shadow-md hover:text-white mt-2"> Nandus.com</button>
+                    <p className="mt-3 text-base md:text-lg font-medium">Check Out Our Products!</p>
                 </div>
             </div>
             
