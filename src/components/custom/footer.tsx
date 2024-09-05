@@ -61,7 +61,7 @@ function Footer() {
                 {/* Bottom Section */}
                 <div className="flex flex-col md:flex-row md:justify-between w-full items-center md:items-center mt-8 border-t py-4">
                     <p className="text-sm text-gray-300 md:mb-0 mb-2 ">
-                        Copyright 2024 Nanda Group
+                        Copyright © 2024 Nanda Group
                     </p>
                     <div className="flex flex-col md:w-1/9 items-center md:items-start">
                         <button

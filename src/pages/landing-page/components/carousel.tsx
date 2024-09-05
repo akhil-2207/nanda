@@ -25,16 +25,16 @@ export function CarouselSpacing() {
   [
     { id: 1, 
       src: BADMINTONSPONSORMEDIA2, alt: "Image 1", 
-      des:"Badminton Acadedmy "},
+      des:"Collaboration with Anup Shridhar Badminton Academy."},
     { id: 2, 
       src: BADMINTONSPONSORMEDIA, alt: "Image 2",
-      des:"Badminton Academy" },
+      des:"Partnered as Sponsors for Two Exceptionally Talented Players." },
     { id: 3, 
       src: USSECMEDIA1, alt: "Image 3",
-      des:"Naveen Pasuparthy, President of Karnataka Poultry Farmers and Breeders Association (KPFBA) with USSEC’s CEO, Jim Sutter  " }, // Add your image paths here
+      des:"Naveen Pasuparthy, President of Karnataka Poultry Farmers and Breeders Association (KPFBA) with USSEC’s CEO, Jim Sutter." }, // Add your image paths here
     { id: 4, 
       src: USSECMEDIA2, alt: "Image 4",
-      des:"USSEC and KPFBA signing of MoU on 19-August-2024" }, // Add your image paths and descriptions here       
+      des:"USSEC and KPFBA signing of MoU on 19-August-2024." }, // Add your image paths and descriptions here       
     // { id: 5, 
     //   src: MEDIA4, alt: "Image 5",
     //   des:"Abdycdbhsbbcsbhbvjknksdjovhsjndv ksjnkvnkjd knk    dvsd sdsdc sdc sd cd sc s" }, // Add your image paths here

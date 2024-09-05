@@ -1,4 +1,4 @@
-import { COMPANY } from "@/assets/images";
+import { COMPANY, MEDIA4 } from "@/assets/images";
 
 function WhatDoWeDo() {
     return (
@@ -25,14 +25,14 @@ function WhatDoWeDo() {
                         Who Are We
                     </h2>
                     <div className="flex lg:flex-row gap-14 md:gap-4 md:py-0 py-6 flex-col justify-between items-center">
-                        <p className="text-base md:text-lg lg:w-[60%] lg:text-xl leading-relaxed flex h-fit text-justify md:mt-6 ">
+                        <p className="text-base md:text-lg lg:w-[60%] lg:text-xl leading-relaxed flex h-fit text-justify md:mt-6 2xl:mt-1 ">
                         With a legacy spanning over 60 years, Nanda Group began as a modest hand-mixing animal feed unit. 
                         As one of the oldest partners of Venkateshwara Hatcheries Pvt Ltd, Pune—Asia's largest poultry enterprise, 
                         our visionary founder, P.S Nandakumar, revolutionized poultry farming in India. 
                         <br /> Today, Nanda Group stands as a leader, producing 75,000 tons of poultry feed annually and 
                         partnering with 1,000+ farmers to deliver 60 million chickens annually.
                         </p>
-                        <img src={COMPANY} alt="" className=" md:w-[400px] h-[250px] md:h-[260px] rounded-2xl -mt-10 md:mt-1 " />
+                        <img src={MEDIA4} alt="" className=" md:w-[400px] h-[250px] md:h-[260px] rounded-2xl -mt-10 md:mt-1 " />
                     </div>
                 </div>
             </div>
