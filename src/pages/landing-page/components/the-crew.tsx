@@ -17,14 +17,14 @@ const crewMembers = [
         position: "Chief Farmer",
         image: NARENDRAUPDATED,
     },
-    {   name: "Venkat Rao",
-        position: "Business Head",
-        image: VENKAT,
-    },
     {
         name: "A. N. Setty",
         position: "COO",
         image: SETTY,
+    },
+    {   name: "Venkat Rao",
+        position: "Business Head",
+        image: VENKAT,
     },
     {
         name: "Dr. R JayaKumar",
