@@ -31,7 +31,7 @@ const crewMembers = [
         position: "Breeder Operations",
         image: JAYAKUMAR,
     },
-    {
+    { 
         name: "Dr. Pattabhi",
         position: "Group Nutritionist",
         image: PATTHABHI,

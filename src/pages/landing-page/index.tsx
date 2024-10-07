@@ -3,9 +3,12 @@ import HeroSection from "./components/hero-section";
 import WhatDoWeDo from "./components/what-do-we-do";
 import CrewMembers from "./components/the-crew";
 import Footer from "@/components/custom/footer";
-import BusinessSection from "./components/business";
+import BusinessSection from "./components/businessphase1";
 import { CarouselSpacing } from "./components/carousel";
 import LocationSection from "./components/our-locations";
+
+
+
 
 function LandingPage() {
   return (
@@ -15,11 +18,10 @@ function LandingPage() {
       <WhatDoWeDo />
       <CrewMembers />
       <BusinessSection/> 
-      <div className="container px-14">
+      <div className="container px-14 md:mt-28">
       <CarouselSpacing/>
       </div>
       <LocationSection/>
-
       <Footer />
   
     </div>

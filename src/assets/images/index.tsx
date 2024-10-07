@@ -28,8 +28,22 @@ import USSECMEDIA1 from "./USSEC pic 1.png"
 import USSECMEDIA2 from "./USSEC pic 2.png";
 import NANDUIMG from "./fresh-and-healthy-desktop 1.png"
 import NANDUIMGMOBILE from "./fresh-and-health-mobile 1.png"
+import BIOSECURITYICON from "./bio-security-icon 1.png"
+import OPENCAGEICON from "./open cage 1.png"
+import NATURALMATINGICON from "./NaturalMating.png"
+import FEEDINGCHICKENIMG from "./FeddingChickenImage.png"
+import HATCHERYIMG from "./HatcheryImage.png"
+import FEEDSIMG from "./Feedsimg.png"
+import STATEOFARTICON from "./State-of-art 1.png"
+import CONSISTENTICON from "./consistent-icon 1.png"
+import PREMIUMRAWMATERIALICON from "./premium-raw-material-icon 1.png"
+import FOODAFFORDABLEICON from "./food-affordable-icon.png"
+import FOODCONVENIENCEICON from "./food-convenience-icon.png"
+import FOODFRESHNESSICON from "./food-freshness-icon.png";
 
 export { LOGO, CEO, HERO_IMAGE, PSNANDA, NAVNEEN, SETTY, 
         JAYAKUMAR, PATTHABHI, COMPANY, BBF_LOGO, BH, BLB, KH, NFPL, NANDUS,
         MEDIA1, MEDIA2, MEDIA3, MEDIA4, MEDIA5, LOCATION, VENKAT, BADMINTONSPONSORMEDIA,KIRAN,
-        BADMINTONSPONSORMEDIA2, USSECMEDIA1, USSECMEDIA2, NARENDRAUPDATED, NANDUIMG, NANDUIMGMOBILE};
+        BADMINTONSPONSORMEDIA2, USSECMEDIA1, USSECMEDIA2, NARENDRAUPDATED, NANDUIMG, NANDUIMGMOBILE,
+        BIOSECURITYICON, OPENCAGEICON, NATURALMATINGICON, FEEDINGCHICKENIMG,HATCHERYIMG,FEEDSIMG,
+        PREMIUMRAWMATERIALICON,CONSISTENTICON,STATEOFARTICON, FOODAFFORDABLEICON,FOODFRESHNESSICON, FOODCONVENIENCEICON};
