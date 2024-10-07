@@ -6,8 +6,7 @@ import Footer from "@/components/custom/footer";
 import BusinessSection from "./components/business";
 import { CarouselSpacing } from "./components/carousel";
 import LocationSection from "./components/our-locations";
-
-
+import IndustryConnects from "./components/Industry-Connects";
 
 
 function LandingPage() {
@@ -17,6 +16,7 @@ function LandingPage() {
       <HeroSection />
       <WhatDoWeDo />
       <CrewMembers />
+      <IndustryConnects/>
       <BusinessSection/> 
       <div className="container px-14 md:mt-28">
       <CarouselSpacing/>

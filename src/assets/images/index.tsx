@@ -10,17 +10,8 @@ import JAYAKUMAR from './DR-R.JAYAKUMAR.png'
 import PATTHABHI from './patabi.png'
 import KIRAN from './Dr. Kiran pic.png'
 import COMPANY from './company4.png.webp'
-import BBF_LOGO from './BALKRISHNA-BREEDING-FARMS-PVT-LTD.png'
-import BH from './Balkrishna-HATCHERIES.png'
-import BLB from './Balkrishna-Livestock-Breeders-Pvt.-Ltd..png'
-import KH from './KOMARLA-HATCHERIES.png'
-import NFPL from './NANDA-FEEDS.png'
 import NANDUS from './nandus logo.png'
-import MEDIA1 from './media1.png'
-import MEDIA2 from './media2.png'
-import MEDIA3 from './media3.png'
 import MEDIA4 from './media4.png'
-import MEDIA5 from './media5.png'
 import LOCATION from './nanda group location on map.png'
 import BADMINTONSPONSORMEDIA from './badmintonsponsorpic.png'
 import BADMINTONSPONSORMEDIA2 from "./badmintonsponsor pic 2.png"
@@ -40,10 +31,13 @@ import PREMIUMRAWMATERIALICON from "./premium-raw-material-icon 1.png"
 import FOODAFFORDABLEICON from "./food-affordable-icon.png"
 import FOODCONVENIENCEICON from "./food-convenience-icon.png"
 import FOODFRESHNESSICON from "./food-freshness-icon.png";
+import FOODIMG from "./foodimg.png"
+import CLFMALOGO from "./clfmalogo.png"
+import KPFBALOGO from "./KPFBAlogo.png"
 
-export { LOGO, CEO, HERO_IMAGE, PSNANDA, NAVNEEN, SETTY, 
-        JAYAKUMAR, PATTHABHI, COMPANY, BBF_LOGO, BH, BLB, KH, NFPL, NANDUS,
-        MEDIA1, MEDIA2, MEDIA3, MEDIA4, MEDIA5, LOCATION, VENKAT, BADMINTONSPONSORMEDIA,KIRAN,
+export { LOGO, CEO, HERO_IMAGE, PSNANDA, NAVNEEN, SETTY,KPFBALOGO, 
+        JAYAKUMAR, PATTHABHI, COMPANY, NANDUS,CLFMALOGO,
+        MEDIA4,LOCATION, VENKAT, BADMINTONSPONSORMEDIA,KIRAN,
         BADMINTONSPONSORMEDIA2, USSECMEDIA1, USSECMEDIA2, NARENDRAUPDATED, NANDUIMG, NANDUIMGMOBILE,
-        BIOSECURITYICON, OPENCAGEICON, NATURALMATINGICON, FEEDINGCHICKENIMG,HATCHERYIMG,FEEDSIMG,
+        BIOSECURITYICON, OPENCAGEICON, NATURALMATINGICON, FEEDINGCHICKENIMG,HATCHERYIMG,FEEDSIMG,FOODIMG,
         PREMIUMRAWMATERIALICON,CONSISTENTICON,STATEOFARTICON, FOODAFFORDABLEICON,FOODFRESHNESSICON, FOODCONVENIENCEICON};

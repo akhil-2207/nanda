@@ -1,4 +1,4 @@
-import { FOODAFFORDABLEICON,FOODCONVENIENCEICON,FOODFRESHNESSICON,FEEDSIMG,NANDUIMG,NANDUIMGMOBILE,NANDUS } from "@/assets/images";
+import { FOODAFFORDABLEICON,FOODCONVENIENCEICON,FOODFRESHNESSICON,FOODIMG,NANDUIMG,NANDUIMGMOBILE,NANDUS } from "@/assets/images";
 
 function FoodContent ()
 {
@@ -26,7 +26,7 @@ function FoodContent ()
 
             {/* Bottom part with image and content */}
             <div className="container flex md:flex-row flex-col justify-between items-center p-0 gap-28 ">
-                <img src={FEEDSIMG} className="size-96 rounded-lg mt-10" alt="image" />
+                <img src={FOODIMG} className="size-96 w-1/3 rounded-lg mt-10" alt="image" />
                 <p className="text-xl font-normal md:mt-9">
                 Nandus' Ready-to-Cook (RTC) and Ready-to-Eat (RTE) products are crafted with exceptional care in state-of-the-art facilities, ensuring the highest standards of hygiene and freshness. 
                 <br /><br />
