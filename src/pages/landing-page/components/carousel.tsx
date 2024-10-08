@@ -9,7 +9,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import ReactPlayer from "react-player";
-import { VideoOff } from "lucide-react";
 
 interface CarouselImage {
   id: number;
