@@ -18,7 +18,7 @@ function LandingPage() {
       <CrewMembers />
       <IndustryConnects/>
       <BusinessSection/> 
-      <div className="container px-14 md:mt-28">
+      <div className="container px-14 md:mt-28 mt-16">
       <CarouselSpacing/>
       </div>
       <LocationSection/>
