@@ -10,17 +10,17 @@ function FeedContent ()
                 <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                     <img src={CONSISTENTICON} className="size-20 p-1" alt="icon" />
                     <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                    <p className="text-2xl font-medium">Consistent 24/7 Quality</p>
+                    <p className="md:text-2xl text-xl md:font-medium font-semibold">Consistent 24/7 Quality</p>
                 </div>
                 <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                     <img src={PREMIUMRAWMATERIALICON} className="size-20 p-1" alt="" />
                     <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                    <p className="text-2xl font-medium">Premium Raw Material Sourcing</p>
+                    <p className="md:text-2xl text-xl md:font-medium font-semibold">Premium Raw Material Sourcing</p>
                 </div>
                 <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                     <img src={STATEOFARTICON} className="size-20 p-1" alt="" />
                     <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                    <p className="text-2xl font-medium">State of the art feed mills</p>
+                    <p className="md:text-2xl text-xl md:font-medium font-semibold">State of the art feed mills</p>
                 </div>
             </div>
 

@@ -6,30 +6,30 @@ function FarmContent()
     return(  
         <div>
             {/* Breeder section */}
-            <div className="container flex flex-col">
+            <div className="container flex flex-col sm:px-8 px-3">
                 <h2 className="md:text-3xl font-semibold text-2xl">Breeder Operations</h2>
                 {/* Top section of breeder operations */}
-                <div className="flex md:flex-row flex-col justify-between mt-5 gap-10">
+                <div className="flex md:flex-row flex-col justify-between mt-5 sm:gap-10 gap-5">
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={BIOSECURITYICON} className="size-20 p-1" alt="icon" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl "></div>
-                        <p className="text-2xl font-medium">Bio-Secure Farms</p>
+                        <p className="md:text-2xl text-xl md:font-medium font-semibold">Bio-Secure Farms</p>
                     </div>
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={OPENCAGEICON} className="size-20 p-1" alt="" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                        <p className="text-2xl font-medium">Cage Free Farms</p>
+                        <p className="md:text-2xl text-xl md:font-medium font-semibold">Cage Free Farms</p>
                     </div>
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={NATURALMATINGICON} className="size-20 p-1" alt="" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                        <p className="text-2xl font-medium">Natural Mating Process</p>
+                        <p className="md:text-2xl text-xl md:font-medium font-semibold">Natural Mating Process</p>
                     </div>
                 </div>
 
                 {/* Bottom part with image and content */}
-                <div className="container flex md:flex-row flex-col justify-between items-center p-0 gap-28">
-                    <img src={FEEDINGCHICKENIMG} className="size-96 rounded-lg mt-10" alt="image" />
+                <div className="container flex md:flex-row flex-col justify-between items-center p-0 sm:gap-28">
+                    <img src={FEEDINGCHICKENIMG} className="sm:size-96 rounded-lg mt-10" alt="image" />
                     <p className="text-xl font-normal mt-12">
                         At our farms ecosystem seamlessly integrates superior breeders, or parent birds, with our state-of-the-art
                         hatcheries. <br /> <br />
@@ -45,32 +45,31 @@ function FarmContent()
             </div>
 
             {/* Hatchery Section */}
-            <div className="container flex flex-col mt-20">
+            <div className="container flex flex-col sm:mt-20 mt-16 sm:px-8 px-3">
                 <h2 className="md:text-3xl font-semibold text-2xl">Hatchery</h2>
                 {/* Top section of hatchery */}
-                <div className="flex md:flex-row flex-col justify-between mt-5 gap-10">
+                <div className="flex md:flex-row flex-col justify-between mt-5 sm:gap-10 gap-5">
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={BIOSECURITYICON} className="size-20 p-1" alt="icon" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                        <p className="text-2xl font-medium">Bio-Secure Farms</p>
+                        <p className=" md:text-2xl text-xl md:font-medium font-semibold">Bio-Secure Farms</p>
                     </div>
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={OPENCAGEICON} className="size-20 p-1" alt="" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                        <p className="text-2xl font-medium">Cage Free Farms</p>
+                        <p className=" md:text-2xl text-xl md:font-medium font-semibold">Cage Free Farms</p>
                     </div>
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={NATURALMATINGICON} className="size-20 p-1" alt="" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                        <p className="text-2xl font-medium">Natural Mating Process</p>
+                        <p className=" md:text-2xl text-xl md:font-medium font-semibold">Natural Mating Process</p>
                     </div>
                 </div>
 
                 {/* Bottom part with image and content */}
-                <div className="container flex md:flex-row flex-col justify-between items-center p-0 gap-28">
-                    <img src={HATCHERYIMG} className="size-96 rounded-lg mt-10" alt="image" />
-                    <p className="text-xl font-normal">
-                        <br />
+                <div className="container flex md:flex-row flex-col justify-between items-center p-0 sm:gap-28">
+                    <img src={HATCHERYIMG} className="sm:size-96 rounded-lg mt-10" alt="image" />
+                    <p className="text-xl font-normal mt-12 md:mt-8">
                         Our commitment to quality begins with the premium hatching eggs sourced from our Parent Farms. These eggs
                         then undergo a stringent and closely monitored incubation process in a highly Bio-secured environment.{" "}
                         <br />
@@ -89,31 +88,31 @@ function FarmContent()
 
 
             {/* Broiler Integration-contract-Farming */}
-            <div className="container flex flex-col mt-20">
+            <div className="container flex flex-col sm:mt-20 mt-16 sm:px-8 px-3">
                 <h2 className="md:text-3xl font-semibold text-2xl">Integration-Contract Farming</h2>
                 {/* Top section of Contract farming */}
-                <div className="flex md:flex-row flex-col justify-between mt-5 gap-10">
+                <div className="flex md:flex-row flex-col justify-between mt-5 sm:gap-10 gap-5">
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={BIOSECURITYICON} className="size-20 p-1" alt="icon" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                        <p className="text-2xl font-medium">Bio-Secure Farms</p>
+                        <p className="md:text-2xl text-xl md:font-medium font-semibold">Bio-Secure Farms</p>
                     </div>
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={OPENCAGEICON} className="size-20 p-1" alt="" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                        <p className="text-2xl font-medium">Cage Free Farms</p>
+                        <p className="md:text-2xl text-xl md:font-medium font-semibold">Cage Free Farms</p>
                     </div>
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={NATURALMATINGICON} className="size-20 p-1" alt="" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                        <p className="text-2xl font-medium">Natural Mating Process</p>
+                        <p className="md:text-2xl text-xl md:font-medium font-semibold">Natural Mating Process</p>
                     </div>
                 </div>
 
                 {/* Bottom part with image and content */}
-                <div className="container flex md:flex-row flex-col justify-between items-center p-0 gap-28">
-                    <img src={HATCHERYIMG} className="size-96 rounded-lg mt-10" alt="image" />
-                    <p className="text-xl font-normal">
+                <div className="container flex md:flex-row flex-col justify-between items-center p-0 sm:gap-28">
+                    <img src={HATCHERYIMG} className="sm:size-96 rounded-lg mt-10" alt="image" />
+                    <p className="text-xl font-normal mt-12 md:mt-8">
                         At Nanda Group, we adopt a holistic approach to enhance mutual growth and increase revenue for our partner farmers. 
                         With a network of over 500 partner farmers across India, including 200+ in Maharashtra, 
                         we empower farmers through global technological support and together are shaping the future of poultry farming in India.

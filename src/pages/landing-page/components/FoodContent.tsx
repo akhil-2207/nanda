@@ -10,17 +10,17 @@ function FoodContent ()
                 <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                     <img src={FOODAFFORDABLEICON} className="size-20 p-1" alt="icon" />
                     <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                    <p className="text-2xl font-medium">Affordable Pricing</p>
+                    <p className="md:text-2xl text-xl md:font-medium font-semiboldz">Affordable Pricing</p>
                 </div>
                 <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                     <img src={FOODFRESHNESSICON} className="size-20 p-1" alt="" />
                     <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                    <p className="text-2xl font-medium">Fresshness Guaranteed</p>
+                    <p className="md:text-2xl text-xl md:font-medium font-semiboldz">Fresshness Guaranteed</p>
                 </div>
                 <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                     <img src={FOODCONVENIENCEICON} className="size-20 p-1" alt="" />
                     <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                    <p className="text-2xl font-medium">Convenience </p>
+                    <p className="md:text-2xl text-xl md:font-medium font-semiboldz">Convenience </p>
                 </div>
             </div>
 
