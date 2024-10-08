@@ -27,7 +27,7 @@ function FeedContent ()
             {/* Bottom part with image and content */}
             <div className="container flex md:flex-row flex-col justify-between items-center p-0 sm:gap-28">
                 <img src={FEEDSIMG} className="sm:size-96 rounded-lg mt-10" alt="image" />
-                <p className="lg:text-xl text-lg font-normal mt-12">
+                <p className="lg:text-xl text-base font-normal mt-12">
                     Our commitment to quality begins with the premium hatching eggs sourced from our Parent Farms. These eggs
                     then undergo a stringent and closely monitored incubation process in a highly Bio-secured environment.{" "}
                     <br />

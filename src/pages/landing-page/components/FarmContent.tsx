@@ -30,7 +30,7 @@ function FarmContent()
                 {/* Bottom part with image and content */}
                 <div className="container flex md:flex-row flex-col justify-between items-center p-0 sm:gap-28">
                     <img src={FEEDINGCHICKENIMG} className="sm:size-96 rounded-lg mt-10" alt="image" />
-                    <p className="lg:text-xl text-lg font-normal mt-12">
+                    <p className="lg:text-xl text-base font-normal mt-12">
                         At our farms ecosystem seamlessly integrates superior breeders, or parent birds, with our state-of-the-art
                         hatcheries. <br /> <br />
                         These parent birds are specially bred in bio-secure environments, they receive optimal nutrition, and are
@@ -69,7 +69,7 @@ function FarmContent()
                 {/* Bottom part with image and content */}
                 <div className="container flex md:flex-row flex-col justify-between items-center p-0 sm:gap-28">
                     <img src={HATCHERYIMG} className="sm:size-96 rounded-lg mt-10" alt="image" />
-                    <p className="lg:text-xl text-lg font-normal mt-12 md:mt-8"> 
+                    <p className="lg:text-xl text-base font-normal mt-12 md:mt-8"> 
                         Our commitment to quality begins with the premium hatching eggs sourced from our Parent Farms. These eggs
                         then undergo a stringent and closely monitored incubation process in a highly Bio-secured environment.{" "}
                         <br />
@@ -112,7 +112,7 @@ function FarmContent()
                 {/* Bottom part with image and content */}
                 <div className="container flex md:flex-row flex-col justify-between items-center p-0 sm:gap-28">
                     <img src={HATCHERYIMG} className="sm:size-96 rounded-lg mt-10" alt="image" />
-                    <p className="lg:text-xl text-lg font-normal mt-12 md:mt-8">
+                    <p className="lg:text-xl text-base font-normal mt-12 md:mt-8">
                         At Nanda Group, we adopt a holistic approach to enhance mutual growth and increase revenue for our partner farmers. 
                         With a network of over 500 partner farmers across India, including 200+ in Maharashtra, 
                         we empower farmers through global technological support and together are shaping the future of poultry farming in India.
