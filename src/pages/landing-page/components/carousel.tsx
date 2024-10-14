@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { BADMINTONSPONSORMEDIA, BADMINTONSPONSORMEDIA2, USSECMEDIA1, USSECMEDIA2 } from "@/assets/images";
+import { BADMINTONSPONSORMEDIA, BADMINTONSPONSORMEDIA2, USSECMEDIA1, USSECMEDIA2,MEETINGPHOTO} from "@/assets/images";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -56,6 +56,13 @@ export function CarouselSpacing() {
       video: "https://www.youtube.com/watch?v=UN-u2nRomyM",
       des: "Watch our collaboration video.",
       des2: "Collaboration Highlights Video",
+    },
+    {
+      id: 6,
+      src: MEETINGPHOTO,
+      alt: "Image 4",
+      des: "USSEC and KPFBA signing of MoU on 19-August-2024.",
+      des2: "USSEC and KPFBA signing of MoU on 19-August-2024.",
     },
   ];
 

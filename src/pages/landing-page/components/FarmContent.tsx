@@ -1,4 +1,5 @@
-import { FEEDINGCHICKENIMG,NATURALMATINGICON,OPENCAGEICON,BIOSECURITYICON,HATCHERYIMG }from "@/assets/images";
+import { FEEDINGCHICKENIMG,NATURALMATINGICON,OPENCAGEICON,ADVANCEMACHIERYICON,
+        STATEOFARTHATCHERYICON,BIOSECURITYICON,HATCHERYIMG,VACCINATEDCHICKSICON }from "@/assets/images";
 
 
 function FarmContent()
@@ -50,19 +51,19 @@ function FarmContent()
                 {/* Top section of hatchery */}
                 <div className="flex md:flex-row flex-col justify-between mt-5 sm:gap-10 gap-5">
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
+                        <img src={STATEOFARTHATCHERYICON} className="size-20 p-1" alt="" />
+                        <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
+                        <p className=" md:text-2xl text-xl md:font-medium font-semibold">State-of-the-art Hatcheries</p>
+                    </div>
+                    <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={BIOSECURITYICON} className="size-20 p-1" alt="icon" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
                         <p className=" md:text-2xl text-xl md:font-medium font-semibold">Bio-Secure Farms</p>
                     </div>
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
-                        <img src={OPENCAGEICON} className="size-20 p-1" alt="" />
+                        <img src={VACCINATEDCHICKSICON} className="size-20 p-1" alt="" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                        <p className=" md:text-2xl text-xl md:font-medium font-semibold">Cage Free Farms</p>
-                    </div>
-                    <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
-                        <img src={NATURALMATINGICON} className="size-20 p-1" alt="" />
-                        <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                        <p className=" md:text-2xl text-xl md:font-medium font-semibold">Natural Mating Process</p>
+                        <p className=" md:text-2xl text-xl md:font-medium font-semibold">Vaccinated Chicks</p>
                     </div>
                 </div>
 
@@ -93,9 +94,9 @@ function FarmContent()
                 {/* Top section of Contract farming */}
                 <div className="flex md:flex-row flex-col justify-between mt-5 sm:gap-10 gap-5">
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
-                        <img src={BIOSECURITYICON} className="size-20 p-1" alt="icon" />
+                        <img src={ADVANCEMACHIERYICON} className="size-20 p-1" alt="icon" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
-                        <p className="md:text-2xl text-xl md:font-medium font-semibold">Bio-Secure Farms</p>
+                        <p className="md:text-2xl text-xl md:font-medium font-semibold">Advance Machinery</p>
                     </div>
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={OPENCAGEICON} className="size-20 p-1" alt="" />

@@ -45,7 +45,7 @@ const crewMembers = [
 
 function CrewSection() {
     return (
-        <div id="The-Team" className="h-fit px-4 md:mt-6 container">
+        <div id="The-Team" className="h-fit p-0 sm:px-4 md:mt-6 container">
             <div className="container mx-auto p-1">
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-3 mt-8 text-center">
                     Meet Our Team
