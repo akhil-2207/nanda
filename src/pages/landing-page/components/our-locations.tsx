@@ -7,7 +7,7 @@ function LocationSection(){
                     Nanda Group FootPrint
                 </h2>
                 <div className="flex flex-col items-center md:mt-8 ">
-                    <img className="mt-4 md:min-h-[80vh]  " src={LOCATION} alt="our locations" />
+                    <img className="mt-4 md:h-[520px] " src={LOCATION} alt="our locations" />
                 </div>
             </div>
             
