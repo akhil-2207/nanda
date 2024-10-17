@@ -111,7 +111,7 @@ export function CarouselSpacing() {
                         className="lg:h-64 opacity-100 hover:opacity-70 transition-opacity duration-500"
                       />
                     ) : (
-                      <div className="flex justify-center items-center lg:h-64 lg:w-96 md:h-40 md:w-64">
+                      <div className="flex justify-center items-center lg:h-64 lg:w-96 h-40 w-64">
                         <ReactPlayer
                           url={item.video}
                           light={true}
