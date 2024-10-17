@@ -18,7 +18,7 @@ function CrewSection() {
 
     useEffect(() => {
         const fetchImages = async () => {
-            const updatedCrew = await Promise.all(
+            const updatedCrew = await Promise.all(   
                 crewMembers.map(async (member) => {
                     const imageRef = ref(storage, `Crew/${member.image}.png`); // Use proper path
                     const imageUrl = await getDownloadURL(imageRef);

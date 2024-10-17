@@ -66,7 +66,7 @@ export function CarouselSpacing() {
           {
             id: 5,
             video: "https://www.youtube.com/watch?v=UN-u2nRomyM", // YouTube link
-            des: "Watch our collaboration video.",
+            des: "Watch our Highlights video.",
             des2: "Collaboration Highlights Video",
           },
         ];
