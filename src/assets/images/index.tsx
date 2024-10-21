@@ -2,7 +2,6 @@ import LOGO from "../NANDAGROUP_LOGO.png";
 import COMPANY from './company4.png.webp'
 import NANDUS from './nandus logo.png'
 import MEDIA4 from './media4.png'
-import MEETINGPHOTO from "./meetingphoto.png"
 import KPFBALOGO from "./KPFBAlogo.png"
 import NANDUIMG from "./fresh-and-healthy-desktop 1.png"
 import NANDUIMGMOBILE from "./fresh-and-health-mobile 1.png"
@@ -23,9 +22,10 @@ import CLFMALOGO from "./clfmalogo.png"
 import VACCINATEDCHICKSICON from "./farm_hatcheries-icon-3.png"
 import STATEOFARTHATCHERYICON from "./farm_hatcheries-stateofarticon.png"
 import ADVANCEMACHIERYICON from "./farm_contract-advancemachinery.png"
+import CONTRACTFARMINGIMG from "./contract farming pic.png"
 
-export { LOGO,KPFBALOGO,STATEOFARTHATCHERYICON, 
-        COMPANY, NANDUS,CLFMALOGO,MEETINGPHOTO,ADVANCEMACHIERYICON,
+export { LOGO,KPFBALOGO,STATEOFARTHATCHERYICON, CONTRACTFARMINGIMG,
+        COMPANY, NANDUS,CLFMALOGO,ADVANCEMACHIERYICON,
         MEDIA4,VACCINATEDCHICKSICON, NANDUIMG, NANDUIMGMOBILE,
         BIOSECURITYICON, OPENCAGEICON, NATURALMATINGICON, FEEDINGCHICKENIMG,HATCHERYIMG,FEEDSIMG,FOODIMG,
         PREMIUMRAWMATERIALICON,CONSISTENTICON,STATEOFARTICON, FOODAFFORDABLEICON,FOODFRESHNESSICON, FOODCONVENIENCEICON};

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { getDownloadURL, ref } from "firebase/storage";
-import { storage } from "@/firebase"; // Ensure Firebase is initialized
+import { storage } from "@/firebase"; // Ensure Firebase is initialized 
 
 function HeroSection() {
   const [heroImageUrl, setHeroImageUrl] = useState("");
@@ -17,7 +17,7 @@ function HeroSection() {
         const heroUrl = await getDownloadURL(heroImageRef);
         const ceoUrl = await getDownloadURL(ceoImageRef);
 
-        setHeroImageUrl(heroUrl);
+        setHeroImageUrl(heroUrl); 
         setCeoImageUrl(ceoUrl);
       } catch (error) {
         console.error("Error fetching images from Firebase:", error);
