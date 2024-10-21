@@ -6,7 +6,7 @@ function FoodContent ()
         <div className="container flex flex-col sm:px-8 px-3 ">
             <h2 className="md:text-3xl font-semibold text-2xl">Nandus: </h2>
             {/* Top section of hatchery */}
-            <div className="flex md:flex-row flex-col justify-between mt-5 sm:gap-10 gap-5">
+            <div className="flex lg:flex-row flex-col justify-between mt-5 lg:gap-10 gap-5">
                 <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                     <img src={FOODAFFORDABLEICON} className="size-20 p-1" alt="icon" />
                     <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
@@ -25,8 +25,8 @@ function FoodContent ()
             </div>
 
             {/* Bottom part with image and content */}
-            <div className="container flex md:flex-row flex-col justify-between items-center p-0 sm:gap-28 ">
-                <img src={FOODIMG} className="sm:size-96 size-80 md:w-1/3 rounded-lg mt-10" alt="image" />
+            <div className="container flex lg:flex-row flex-col justify-between items-center p-0 lg:gap-28 ">
+                <img src={FOODIMG} className="sm:size-96 size-80 lg:w-1/3 rounded-lg mt-10" alt="image" />
                 <p className="lg:text-xl text-base font-normal mt-12">
                 Nandus' Ready-to-Cook (RTC) and Ready-to-Eat (RTE) products are crafted with exceptional care in state-of-the-art facilities, ensuring the highest standards of hygiene and freshness. 
                 <br /><br />

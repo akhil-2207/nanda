@@ -10,7 +10,7 @@ function FarmContent()
             <div className="container flex flex-col sm:px-8 px-3">
                 <h2 className="md:text-3xl font-semibold text-2xl">Breeder Operations:</h2>
                 {/* Top section of breeder operations */}
-                <div className="flex md:flex-row flex-col justify-between mt-5 sm:gap-10 gap-5">
+                <div className="flex lg:flex-row flex-col justify-between mt-5 lg:gap-10 gap-5">
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={BIOSECURITYICON} className="size-20 p-1" alt="icon" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl "></div>
@@ -29,7 +29,7 @@ function FarmContent()
                 </div>
 
                 {/* Bottom part with image and content */}
-                <div className="container flex md:flex-row flex-col justify-between items-center p-0 sm:gap-28">
+                <div className="container flex lg:flex-row flex-col justify-between items-center p-0 lg:gap-28">
                     <img src={FEEDINGCHICKENIMG} className="sm:size-96 rounded-lg mt-10" alt="image" />
                     <p className="lg:text-xl text-base font-normal mt-12">
                         At our farms ecosystem seamlessly integrates superior breeders, or parent birds, with our state-of-the-art
@@ -49,7 +49,7 @@ function FarmContent()
             <div className="container flex flex-col sm:mt-20 mt-16 sm:px-8 px-3">
                 <h2 className="md:text-3xl font-semibold text-2xl">Hatchery</h2>
                 {/* Top section of hatchery */}
-                <div className="flex md:flex-row flex-col justify-between mt-5 sm:gap-10 gap-5">
+                <div className="flex lg:flex-row flex-col justify-between mt-5 lg:gap-10 gap-5">
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={STATEOFARTHATCHERYICON} className="size-20 p-1" alt="" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
@@ -68,7 +68,7 @@ function FarmContent()
                 </div>
 
                 {/* Bottom part with image and content */}
-                <div className="container flex md:flex-row flex-col justify-between items-center p-0 sm:gap-28">
+                <div className="container flex lg:flex-row flex-col justify-between items-center p-0 lg:gap-28">
                     <img src={HATCHERYIMG} className="sm:size-96 rounded-lg mt-10" alt="image" />
                     <p className="lg:text-xl text-base font-normal mt-12 md:mt-8"> 
                         Our commitment to quality begins with the premium hatching eggs sourced from our Parent Farms. These eggs
@@ -92,7 +92,7 @@ function FarmContent()
             <div className="container flex flex-col sm:mt-20 mt-16 sm:px-8 px-3">
                 <h2 className="md:text-3xl font-semibold text-2xl">Integration-Contract Farming</h2>
                 {/* Top section of Contract farming */}
-                <div className="flex md:flex-row flex-col justify-between mt-5 sm:gap-10 gap-5">
+                <div className="flex lg:flex-row flex-col justify-between mt-5 lg:gap-10 gap-5">
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
                         <img src={ADVANCEMACHIERYICON} className="size-20 p-1" alt="icon" />
                         <div className="border-primary border h-12 ml-5 mr-5 rounded-2xl"></div>
@@ -111,7 +111,7 @@ function FarmContent()
                 </div>
 
                 {/* Bottom part with image and content */}
-                <div className="container flex md:flex-row flex-col justify-between items-center p-0 sm:gap-28">
+                <div className="container flex lg:flex-row flex-col justify-between items-center p-0 lg:gap-28">
                     <img src={CONTRACTFARMINGIMG} className="sm:size-96 rounded-lg mt-10" alt="image" />
                     <p className="lg:text-xl text-base font-normal mt-12 md:mt-8">
                         At Nanda Group, we adopt a holistic approach to enhance mutual growth and increase revenue for our partner farmers. 
