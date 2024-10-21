@@ -1,4 +1,3 @@
-
 import { CLFMALOGO,KPFBALOGO } from "@/assets/images";
 function IndustryConnects () {
   return (
