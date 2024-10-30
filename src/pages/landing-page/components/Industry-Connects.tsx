@@ -20,7 +20,7 @@ function IndustryConnects () {
               />
           </div>
           <div>
-            <h2  className="md:text-3xl text-xl text-black md:mb-10 mb-6 font-medium ">Strengthening the Farming & Processing Industry</h2>
+            <h2  className="md:text-3xl text-xl text-black md:mb-10 mb-6 font-medium ">Strengthening the Farming & Processing Industry:   </h2>
               <p className="text-xl text-black mb-4 font-normal ">
                 At Nanda Group, we are proud to contribute to the advancement of the farming
                 and processing sector through our active involvement with key industry bodies 

@@ -6,7 +6,8 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} 
+from "@/components/ui/carousel";
 import ReactPlayer from "react-player";
 import { getDownloadURL, ref } from "firebase/storage";
 import { storage } from "@/firebase"; // Assuming Firebase is initialized properly
@@ -111,7 +112,7 @@ export function CarouselSpacing() {
                         className="lg:h-64 opacity-100 hover:opacity-70 transition-opacity duration-500"
                       />
                     ) : (
-                      <div className="flex justify-center items-center lg:h-64 lg:w-96 h-40 w-64">
+                      <div className="flex justify-center items-center lg:h-64 lg:w-96 md:h-52 md:w-96 h-40 w-64">
                         <ReactPlayer
                           url={item.video}
                           light={true}
