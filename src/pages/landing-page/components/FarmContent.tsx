@@ -46,7 +46,7 @@ function FarmContent()
 
             {/* Hatchery Section */}
             <div className="container flex flex-col sm:mt-20 mt-16 sm:px-8 px-3">
-                <h2 className="md:text-3xl font-semibold text-2xl">Hatchery</h2>
+                <h2 className="md:text-3xl font-semibold text-2xl">Hatchery:</h2>
                 {/* Top section of hatchery */}
                 {/* <div className="flex lg:flex-row flex-col justify-between mt-5 lg:gap-10 gap-5">
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
@@ -89,7 +89,7 @@ function FarmContent()
 
             {/* Broiler Integration-contract-Farming */}
             <div className="container flex flex-col sm:mt-20 mt-16 sm:px-8 px-3">
-                <h2 className="md:text-3xl font-semibold text-2xl">Integration-Contract Farming</h2>
+                <h2 className="md:text-3xl font-semibold text-2xl">Integration-Contract Farming:</h2>
                 {/* Top section of Contract farming */}
                 {/* <div className="flex lg:flex-row flex-col justify-between mt-5 lg:gap-10 gap-5">
                     <div className="container border-gray-300 border rounded-2xl flex-row flex items-center p-3">
