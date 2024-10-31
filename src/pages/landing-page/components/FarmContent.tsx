@@ -79,7 +79,7 @@ function FarmContent()
                         exceptional genetic potential, receive global-standard vaccines for safety which also guarantees excellent
                         livability post-hatch in farms. <br />
                         <br />
-                        Today, with hatcheries in Karnataka, Tamil Nadu, Maharashtra, Kerala, Andhra Pradesh and Oddhisa our total setting capacity is 6.3 million DOCs per
+                        Today, with hatcheries in Karnataka, Tamil Nadu, Maharashtra, Kerala, Andhra Pradesh and Odhisa our total setting capacity is 6.3 million DOCs per
                         month.
                     </p>
                 </div>

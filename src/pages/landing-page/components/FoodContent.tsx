@@ -28,7 +28,7 @@ function FoodContent ()
             <div className="container flex lg:flex-row flex-col justify-between items-center p-0 lg:gap-28 ">
                 <img src={NANDUSPRODUCTIMG} className="sm:size-96 size-80 lg:w-1/3 rounded-lg mt-10" alt="image" />
                 <p className="lg:text-xl text-base font-normal mt-8">
-                Nandus' Ready-to-Cook (RTC) and Ready-to-Eat (RTE) products are crafted with exceptional care in state-of-the-art facilities, ensuring the highest standards of hygiene and freshness. 
+                Nandus Ready-to-Cook (RTC) and Ready-to-Eat (RTE) products are crafted with exceptional care in state-of-the-art facilities, ensuring the highest standards of hygiene and freshness. 
                 <br /><br />
                 Sourced from our own farms, we deliver premium quality, farm-fresh chicken known for its tenderness and rich taste. 
                 <br /><br />

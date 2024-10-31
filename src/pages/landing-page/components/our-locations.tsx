@@ -8,7 +8,7 @@ function LocationSection() {
   useEffect(() => {
     const fetchLocationImage = async () => {
       try {
-        const url = await getDownloadURL(ref(storage, "OurLocations/nanda group location on map.png"));
+        const url = await getDownloadURL(ref(storage, "OurLocations/Map.png"));
         setLocationImageUrl(url);
       } catch (error) {
         console.error("Error fetching location image:", error);

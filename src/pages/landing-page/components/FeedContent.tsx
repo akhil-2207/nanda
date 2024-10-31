@@ -28,17 +28,14 @@ function FeedContent ()
             <div className="container flex lg:flex-row flex-col justify-between items-center p-0 lg:gap-28">
                 <img src={FEEDSIMG} className="sm:size-96 size-80 rounded-lg mt-10" alt="image" />
                 <p className="lg:text-xl text-base font-normal md:mt-12 mt-8">
-                    Our commitment to quality begins with the premium hatching eggs sourced from our Parent Farms. These eggs
-                    then undergo a stringent and closely monitored incubation process in a highly Bio-secured environment.{" "}
-                    <br />
-                    <br />
-                    A standard egg grading technology ensures that we select only the best eggs for incubation to maintain
-                    optimal chicks quality fertility. These Day-Old Chicks (DOC), which are known for rapid growth as an and
-                    exceptional genetic potential, receive global-standard vaccines for safety which also guarantees excellent
-                    livability post-hatch in farms. <br />
-                    <br />
-                    Today, with hatcheries in Maharashtra and Karnataka, our total yield capacity is 1.3 million DOCs per
-                    month.
+                To ensure optimal health and enhance the productivity of high-quality livestock, 
+                it’s essential to provide feed tailored to each breed's unique needs, 
+                considering factors like geographic location and seasonal changes. 
+                <br /> <br />
+                At Nanda Group, we specialize in creating customized feed formulations designed to meet these specific requirements, 
+                helping to unlock the full genetic potential of each breed.
+                <br /> <br /> 
+                This focused approach promotes exceptional animal performance and maximizes returns for farmers.
                 </p>
             </div>
 
